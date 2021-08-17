@@ -77,7 +77,7 @@ export class Home extends Component{
           <Posts posts={filteredPosters} />
         )}
         
-        {filteredPosters.length == 0 && (
+        {filteredPosters.length === 0 && (
           <h2>NO MATCH</h2>
         )}
 
